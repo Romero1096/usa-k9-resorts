@@ -1,0 +1,5 @@
+/* Provenance is retained in the project archive, not shown to customers. */
+.article-figure figcaption,
+.faq-figure figcaption {
+  display: none;
+}

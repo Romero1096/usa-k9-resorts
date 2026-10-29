@@ -1,0 +1,144 @@
+.suv-feature img {
+  transform: translateY(calc(var(--keith-progress, 0) * -3%)) scale(calc(1.01 + var(--keith-progress, 0) * .035));
+  transform-origin: center 56%;
+  transition: transform .16s linear;
+}
+
+.suv-feature { --keith-progress: 0; }
+.suv-feature figure { overflow: hidden; }
+
+.arrival-logo {
+  width: min(240px, 62%);
+  max-height: 154px;
+  padding: 3px;
+  background: #fff;
+  object-fit: contain;
+}
+
+.video-beat figcaption,
+.photo-passage figcaption {
+  color: #59646b;
+}
+
+.training-bridge .phone-button {
+  color: #fff;
+}
+
+/* Keep the supplied material in a narrative role, not a decorative gallery. */
+.photo-passage,
+.wind-release {
+  display: none;
+}
+
+.video-beat {
+  max-width: none;
+  margin: 0;
+  padding: clamp(42px, 7vw, 88px) clamp(20px, 8vw, 150px);
+  background: var(--slate);
+  grid-template-columns: minmax(260px, .65fr) minmax(300px, .75fr);
+  align-items: center;
+  gap: clamp(32px, 8vw, 132px);
+}
+
+.video-beat figure {
+  max-width: 460px;
+}
+
+.video-beat figcaption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.video-beat > div {
+  display: none;
+}
+
+.video-beat > div.video-context {
+  display: block;
+  max-width: 540px;
+  color: #f5f2ea;
+}
+
+.video-context .kicker {
+  margin: 0 0 12px;
+  color: var(--gold);
+}
+
+.video-context h2 {
+  max-width: 12ch;
+  margin: 0;
+  color: #f5f2ea;
+}
+
+.video-context > p:not(.kicker) {
+  max-width: 48ch;
+  margin: 20px 0 24px;
+  color: rgba(245, 242, 234, .86);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.video-context dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0 0 28px;
+}
+
+.video-context dl > div {
+  padding: 14px 0;
+  border-top: 1px solid rgba(216, 170, 109, .5);
+}
+
+.video-context dt {
+  margin-bottom: 5px;
+  color: var(--gold);
+  font-family: "DM Mono", monospace;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.video-context dd {
+  margin: 0;
+  color: #f5f2ea;
+  font-family: Manrope, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.35rem;
+}
+
+.video-context dd span {
+  display: block;
+  margin-top: 4px;
+  color: rgba(245, 242, 234, .68);
+  font-family: Manrope, Arial, sans-serif;
+  font-size: .75rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 760px) {
+  .video-beat {
+    padding: 34px 20px 42px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .video-beat figure { max-width: 360px; }
+  .video-context h2 { max-width: 14ch; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .suv-feature img { transform: none; }
+}
+
+@media (max-width: 760px) {
+  .arrival-logo { width: 192px; max-height: 124px; }
+}

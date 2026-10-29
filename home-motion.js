@@ -27,6 +27,6 @@
   const animation = document.createElement('img');
   animation.className = 'video-gif';
   animation.src = 'assets/golden-retriever-deck.gif';
-  animation.alt = 'Golden retriever seated on a wood deck, facing the camera.';
+  animation.alt = 'Golden retriever on the deck.';
   clip.replaceWith(animation);
 })();

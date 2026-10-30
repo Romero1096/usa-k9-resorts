@@ -12,8 +12,8 @@
   if (copy) {
     copy.className = 'video-context';
     copy.innerHTML = `
-      <h2>Boarding starts with a meet &amp; greet</h2>
-      <p>New boarding guests begin with an in-home meet &amp; greet. Pickup and delivery are included throughout Greater Midland / Odessa at no additional cost.</p>
+      <h2>Boarding starts with a meet and greet</h2>
+      <p>New boarding guests begin with an in-home meet and greet. Pickup and delivery are included throughout Greater Midland / Odessa at no additional cost.</p>
       <dl aria-label="Boarding rates">
         <div><dt>Overnight boarding</dt><dd>$60 <span>per night · 3-night minimum</span></dd></div>
         <div><dt>Holiday periods</dt><dd>$65 <span>per night · 3-night minimum</span></dd></div>

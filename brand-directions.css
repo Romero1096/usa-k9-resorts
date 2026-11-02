@@ -326,7 +326,7 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 760px) {
   .arrival-copy h1 {
     max-width: none;
-    font-size: clamp(32px, 9.6vw, 38px);
+    font-size: clamp(28px, 8.6vw, 34px);
     line-height: 1.04;
     letter-spacing: -.055em;
   }

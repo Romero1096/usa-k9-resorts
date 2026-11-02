@@ -290,3 +290,34 @@ a { color: inherit; text-decoration: none; }
     justify-content: center;
   }
 }
+
+/* Phone hero: keep the booking message compact enough to be read as one unit. */
+@media (max-width: 760px) {
+  .arrival-copy {
+    padding: 28px 22px 34px;
+  }
+
+  .arrival-logo {
+    width: 166px;
+    margin: 0 0 22px;
+  }
+
+  .arrival-copy h1 {
+    max-width: 12ch;
+    margin: 0 0 17px;
+    font-size: clamp(38px, 10.8vw, 48px);
+    line-height: .95;
+    letter-spacing: -.065em;
+    text-wrap: balance;
+  }
+
+  .arrival-copy > p:not(.eyebrow) {
+    max-width: 37ch;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+
+  .arrival-copy .phone-button {
+    margin-top: 20px;
+  }
+}

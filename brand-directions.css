@@ -125,6 +125,12 @@ a { color: inherit; text-decoration: none; }
 .detail-ledger .rate-ledger dd { justify-content: center; }
 .detail-ledger .detail-notes,
 .detail-ledger .detail-notes summary { text-align: center; }
+.detail-ledger .rate-ledger {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: clamp(18px, 5vw, 72px);
+}
+.detail-ledger .rate-ledger strong { font-size: clamp(38px, 5vw, 72px); }
 .pdt-original { width: 112px; height: auto; margin: 0 0 24px; background: white; }
 
 /* Direction 02 — panoramic lodge sign */

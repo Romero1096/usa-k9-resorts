@@ -227,7 +227,8 @@ a { color: inherit; text-decoration: none; }
   .arrival-copy .phone-button { margin-top: 22px; background: rgba(23,25,27,.84); }
   .arrival-gate { width: 96vw; height: 20svh; clip-path: polygon(15% 0,100% 0,100% 100%,0 100%); }
   .wind-release { min-height: 105svh; padding: 5svh 20px 0; }.wind-release figure { top: 5svh; height: 76svh; border-radius: 42% 42% 0 0 / 9% 9% 0 0; }.wind-release img { object-position: 57% center; }.wind-release > p { right: 22px; bottom: 4svh; font-size: 16px; }
-  .detail-ledger .rate-ledger { display: block; }
+  .detail-ledger .rate-ledger { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .detail-ledger .rate-ledger strong { font-size: clamp(26px, 7vw, 34px); }
   .rate-ledger > div { grid-template-columns: 1fr; gap: 10px; }.rate-ledger dd { display:grid; gap:8px; }.rate-ledger strong { font-size: 52px; }
 }
 

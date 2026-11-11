@@ -126,11 +126,16 @@ a { color: inherit; text-decoration: none; }
 .detail-ledger .detail-notes,
 .detail-ledger .detail-notes summary { text-align: center; }
 .detail-ledger .rate-ledger {
+  width: 100%;
+  max-width: 920px;
+  margin-inline: auto;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   column-gap: clamp(18px, 5vw, 72px);
 }
 .detail-ledger .rate-ledger strong { font-size: clamp(38px, 5vw, 72px); }
+.detail-ledger .detail-notes { width: 100%; max-width: 920px; margin-inline: auto; }
+.detail-ledger .detail-notes p { margin-inline: auto; }
 .pdt-original { width: 112px; height: auto; margin: 0 0 24px; background: white; }
 
 /* Direction 02 — panoramic lodge sign */

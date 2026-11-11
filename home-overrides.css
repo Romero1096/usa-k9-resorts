@@ -124,17 +124,6 @@
   line-height: 1.35;
 }
 
-.video-context .unaltered-rate {
-  display: block;
-  margin-top: 9px;
-  color: rgba(245, 242, 234, .78);
-  font-family: Manrope, Arial, sans-serif;
-  font-size: .68rem;
-  font-weight: 600;
-  letter-spacing: .01em;
-  line-height: 1.4;
-}
-
 @media (max-width: 760px) {
   .video-beat {
     padding: 34px 20px 42px;

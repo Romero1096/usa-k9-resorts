@@ -92,15 +92,6 @@
   margin: 0 0 28px;
 }
 
-.video-context .rate-note {
-  max-width: 36ch;
-  margin: -6px auto 22px;
-  color: rgba(245, 242, 234, .8);
-  font-size: .8rem;
-  line-height: 1.5;
-  text-align: center;
-}
-
 .video-context dl > div {
   padding: 14px 0;
   border-top: 1px solid rgba(216, 170, 109, .5);
@@ -131,12 +122,6 @@
   font-family: Manrope, Arial, sans-serif;
   font-size: .75rem;
   line-height: 1.35;
-}
-
-.video-context .phone-button {
-  display: flex;
-  width: max-content;
-  margin-inline: auto;
 }
 
 @media (max-width: 760px) {

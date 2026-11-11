@@ -20,6 +20,7 @@
         <div><dt>Holiday periods</dt><dd>$65</dd></div>
         <div><dt>Unaltered dog</dt><dd>$75</dd></div>
       </dl>
+      <p class="rate-note">All boarding rates are per night with a 3-night minimum.</p>
       <a class="phone-button gold" href="tel:8323818150">Call or text 832.381.8150</a>
     `;
   }

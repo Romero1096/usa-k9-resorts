@@ -227,6 +227,21 @@ a { color: inherit; text-decoration: none; }
   .rate-ledger > div { grid-template-columns: 1fr; gap: 10px; }.rate-ledger dd { display:grid; gap:8px; }.rate-ledger strong { font-size: 52px; }
 }
 
+/* The white service ledger stays, but its boarding rates read as two concise pairs. */
+.rate-ledger.rate-pairs > .rate-pair {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: clamp(24px, 6vw, 90px);
+  padding-block: clamp(28px, 4vw, 44px);
+}
+.rate-ledger.rate-pairs dd { display: block; margin-top: 12px; }
+.rate-ledger.rate-pairs strong { font-size: clamp(48px, 5.5vw, 76px); }
+@media (max-width: 760px) {
+  .rate-ledger.rate-pairs > .rate-pair { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+  .rate-ledger.rate-pairs dt { font-size: 19px; }
+  .rate-ledger.rate-pairs strong { font-size: clamp(39px, 12vw, 52px); }
+}
+
 
 /* Review direction: keep the entire arrival photograph visible. */
 .arrival-back { background: var(--slate); }

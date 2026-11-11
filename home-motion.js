@@ -15,8 +15,8 @@
       <h2>Boarding starts with a meet and greet</h2>
       <p>New boarding guests begin with an in-home meet and greet. Pickup and delivery are included throughout Greater Midland / Odessa at no additional cost.</p>
       <dl aria-label="Boarding rates">
-        <div><dt>Overnight boarding</dt><dd>$60 <span>per night · 3-night minimum</span></dd></div>
-        <div><dt>Holiday periods</dt><dd>$65 <span>per night · 3-night minimum</span></dd></div>
+        <div><dt>Overnight boarding</dt><dd>$60 <span>per night · 3-night minimum</span><small class="unaltered-rate">Unaltered dog rate · $70 per night</small></dd></div>
+        <div><dt>Holiday periods</dt><dd>$65 <span>per night · 3-night minimum</span><small class="unaltered-rate">Unaltered dog rate · $75 per night</small></dd></div>
       </dl>
       <a class="phone-button gold" href="tel:8323818150">Call or text 832.381.8150</a>
     `;
